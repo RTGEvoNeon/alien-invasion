@@ -1,13 +1,4 @@
 
-resolution = {
-    'horizontal': 1366,
-    'vertical': 768
-}
-
-scale = 0.7
-
-x = resolution['horizontal']
-y = resolution['vertical']
 
 class Settings():
 
@@ -19,4 +10,11 @@ class Settings():
         self.screen_height = 768/2
         # Назначение цвета фона.
         self.bg_color = (200, 200, 255)
+        self.ship_speed_factor = 0.1
+
+        # Настройки пули
+        self.bullet_speed_factor = 1
+        self.bullet_width = 3
+        self.bullet_height = 15
+        self.bullet_color = (60, 60, 60)
 
